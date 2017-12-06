@@ -1,3 +1,5 @@
+=== LJXDM patch for abandonware ===
+
 === Manual Image Crop ===
 Contributors: tomasz.sita
 Tags: crop, cropping, thumbnail, featured image, gallery, images, picture, image, image area
@@ -5,12 +7,15 @@ Tested up to: 4.3
 Requires at least: 3.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=WB5ZQWGUM7T96
 Stable tag: 1.12
 
 Plugin allows you to manually crop all the image sizes registered in your WordPress theme (in particular featured image).
 
 == Description ==
+
+This plugin appears to have been abandoned. Forked repo to maintain legacy projects.
+
+== Original Description ==
 Plugin allows you to manually crop all the image sizes registered in your WordPress theme (in particular featured image).
 Simply click on the "Crop" link next to any image in your media library. 
 The "lightbox" style interface will be brought up and you are ready to go.
@@ -20,13 +25,11 @@ Apart from media library list, the plugin adds links in few more places:
 * Below featured image box ("Crop featured image")
 * In the media insert modal window (once you select an image)
 
-= Enjoying using Manual Image Crop? =
-[Donate the plugin here](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=WB5ZQWGUM7T96 "Donate")
 
 Thank you!
 
 = GitHub Repository =
-https://github.com/tomaszsita/wp-manual-image-crop
+https://github.com/LJXDM/wp-manual-image-crop
 
 = Translations =
 * Dutch (Bernardo Hulsman)
@@ -50,6 +53,10 @@ Please contact me if you want to add a translation (or submit a pull request on 
 *   Navigate to the 'Plugins' menu inside of the wordpress wp-admin dashboard, and select AD NEW 
 *   Search for 'Manual Imag Crop', and click install 
 *   When the plugin has been installed, Click 'Activate' 
+
+== Changelog ==
+= 1.12.1 =
+* minor cosmetic changes
 
 == Changelog ==
 = 1.12 =
