@@ -27,9 +27,9 @@ class ManualImageCropEditorWindow {
 		$sizesSettings = MicSettingsPage::getSettings();
 		?>
 <div class="mic-editor-wrapper">
-	<h4>
+	<!--h4>
 		<?php _e('Pick the image size:','microp'); ?>
-	</h4>
+	</h4-->
 	<h2 class="nav-tab-wrapper">
 		<?php
 		global $_wp_additional_image_sizes;
@@ -99,7 +99,7 @@ class ManualImageCropEditorWindow {
 
 		$src_file_url = wp_get_attachment_image_src($postId, 'full');
 		if (!$src_file_url) {
-			echo json_encode (array('status' => 'error', 'message' => 'wrong attachement' ) );
+			echo json_encode (array('status' => 'error', 'message' => 'wrong attachment (file missing)' ) );
 			exit;
 		}
 		$src_file = str_replace($uploadsDir['baseurl'], $uploadsDir['basedir'], $src_file_url[0]);
